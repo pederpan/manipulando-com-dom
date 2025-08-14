@@ -15,7 +15,7 @@ let elementoPorId = document.getElementById("meuId")
 let novoH1 = document.createElement("h1")
 
 // 5. Defina o texto do h1 como "Minha Atividade DOM"
-novoH1.textContent = 'Minha Atividade DOM'
+novoH1.textContent = "Minha Atividade DOM"
 
 // 6. Adicione o h1 ao body
 body.appendChild(novoH1)
@@ -33,7 +33,7 @@ for (let p of paragrafos) {
 // ==================================================
 // ==> MANIPULAR ATRIBUTOS <==
 // 9. Adicione uma classe "destaque" ao elemento com id "meuId"
-elementoPorId.
+elementoPorId.classList.add("destaque")
 
 // 10. Adicione um atributo "title" com valor "Elemento destacado" ao mesmo elemento
-elementoPorId.
+elementoPorId.setAttribute("title", "Elemento destacado")
